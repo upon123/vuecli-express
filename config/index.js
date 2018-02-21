@@ -19,7 +19,8 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-/*        '/mule/app': {
+  //此处配置代理api服务器
+ /*'/mule/app': {
            target: 'http://localhost:8090/mule/app',
            pathRewrite: {
              '^/mule/app':'/mule/app'
