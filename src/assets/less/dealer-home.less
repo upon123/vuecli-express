@@ -1,0 +1,285 @@
+.dealerTop{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.dealerTopZhanwei{
+	width: 100%;
+	height: 4.1rem;
+}
+.dealerbanner{
+	width: 100%;
+	background: url(../../../static/images/dealer_backguound.png) no-repeat;
+	background-size: cover;
+	height: 3.2rem;
+	position: relative;
+	overflow: hidden;
+	.dealerbanner_top{
+		width: 100%;
+		p{
+			float: left;
+			font-size: .32rem;
+			color: white;
+			text-align: center;
+			margin-top: .68rem;
+			margin-left: 1.24rem
+		}
+		img{
+			float: left;
+			margin-top: .63rem;
+		}
+		.dealer_img1{
+			width: .17rem;
+			height: .31rem;
+			margin-left: .23rem;
+		}
+		.dealer_img2{
+			width: .47rem;
+			height: .42rem;
+			margin-left: 1rem;
+			margin-top: .7rem;
+
+	    }
+	}
+	.dealerbanner_center{
+		overflow: hidden;
+		width: 100%;
+		.img_left{
+			position: relative;
+            width: 1.01rem;
+            height: 1.02rem;
+            border-radius: .05rem;
+            border: 1px solid #FFFFFF;
+            float: left;
+            margin-top: 1.68rem;
+            margin-left: .24rem;
+            overflow: hidden;
+            .img_smort{
+            	position: absolute;
+			    width: 1.64rem;
+                height: 1.02rem;
+                display: block;
+                top: 0;
+                left: 50%;
+                margin-left: -.84rem;  
+            }
+            .img-layer{
+	           	position: fixed;
+			    z-index: 999;
+			    top: 0;
+			    left: 0;
+			    background: rgba(0, 0, 0, 0.7);
+			    width: 100%;
+			    height: 100%;
+			    overflow: hidden;
+			    .big_img{
+			    	width: 100%;
+				    display: block;
+				    position: absolute;
+				    left: 0;
+				    right: 0;
+				    margin: auto;
+				    z-index: 1000;
+				    top: 29%;
+			    }
+		    }
+		}
+		.dealerbanner_center_center{
+			width: 3.6/7.5*100%;
+			margin-top:1.68rem;
+			margin-left: .13rem;
+			float: left;
+			p{
+				font-size: .22rem;
+				line-height: .22rem;
+				color: #FFFFFF;
+			}
+			.youzhi{
+				float: left;
+				margin-left: .15rem;
+				line-height: .28rem;
+			}
+			.dealerbanner_center_p2{
+				position: relative;
+				float: left;
+			}
+			.dealerbanner_center_div{
+			width: 100%;
+			margin-top: .15rem;
+			overflow: hidden;
+			    height: .7rem;
+                .dealerbanner_center_p3{
+					background: url(../../../static/images/address1.png) no-repeat;
+				    background-size: 100%;
+				    height: .22rem;
+				    width: .18rem;
+				    float:left;
+				}
+				.dealerbanner_center_p4{
+					float: left;
+					width: 90.4%;
+					overflow: hidden;
+					line-height: .28rem;
+					margin-left: .08rem;
+					overflow:hidden; 
+					text-overflow:ellipsis;
+					display:-webkit-box; 
+	                -webkit-box-orient:vertical;
+	                -webkit-line-clamp:2;
+	                margin-top: -.02rem;
+					.img{
+						height: .17rem;
+					    width: .10rem;
+					    margin-left: .1rem;
+    					margin-top: .05rem;
+					}
+				}
+				.dealerbanner_center_p4.iconfont{
+				 width: 100%;
+				 margin: 0rem 0 0.1rem 0;
+				 padding-left: 0.3rem;
+				 position: relative;
+				}
+				
+				.icon-font52::before {
+				   position:absolute;
+				   top:0;
+				   left:0;
+				}
+			}
+		}
+		.border_dealer{
+			position: absolute;
+			bottom: .45rem;
+			right: 2.3/7.5*100%;
+			border-right:1px solid rgba(255, 255, 255, 0.2);
+			height:.48rem;
+			width: 1px;
+		}
+		.dealerbanner_center_right{
+		        float: right;
+		        margin-top:2.25rem;
+			    margin-right: .24rem;
+			    .dealerbanner_center_div1{
+			    	float: left;
+			    	text-align: right;
+			    	p{
+			    		font-size: .2rem;
+			    		color: #FFFFFF;
+			    		line-height: .22rem;
+			    	}
+			    	.ppp{
+			    		margin-top: .03rem;
+			    	}
+			    }
+			    .dealerbanner_center_div2{
+                     width: 1.1rem;
+		             height: .5rem;
+		             border: 1px solid #FFFFFF;
+		             border-radius: .35rem;
+		             line-height: .5rem;
+		             text-align: center;
+		             margin-left: .11rem;
+		             color: #FFFFFF;
+		             font-size: .20rem;
+		             float:right;
+		             span{
+		             	background: url(../../../static/images/jia.png) no-repeat;
+		             	width: .18rem;
+		             	height: .18rem;
+		             	background-size: .18rem .18rem;
+		             	float: left;
+		             	margin-left: .16rem;
+		             	margin-top: .14rem;
+		             	margin-right: -.1rem;
+		            }
+			    }
+	    }
+	}
+
+}
+
+.storeContent{
+	.bounce-enter-active {
+	  	animation: bounce-in .5s;
+	}		
+	@keyframes bounce-in {
+	  	0% {
+	    	transform: scale(0);
+	  	}
+	  	100% {
+	    	transform: scale(1);
+	  	}
+	}
+	.shop{
+		margin-bottom: .25rem;
+		margin-top: .25rem;
+		overflow-y: hidden;
+	}
+	.carSource{
+		width: 100%;
+		.box1 {
+			position: relative;
+			overflow-x: auto;
+		}			
+		.box1-item {
+			width: 3.87rem;
+			padding-left: .19rem;
+			height: 1.63rem;
+			background: url(../../../static/images/coupon_shop2.png) no-repeat;
+			background-size: 3.87rem 1.63rem;
+			display: inline-block;
+			margin-left: .23rem;
+			float: left;
+			position: relative;
+			h2{
+				color: #bb0a30;
+				font-size: .2rem;
+				line-height: .49rem;
+				margin-top: .23rem;
+				margin-bottom: -.02rem;
+				span{
+					font-size: .49rem;	
+					font-weight: bold;				
+				}
+			}
+			p{
+				color: #999;
+				font-size: .19rem;
+				line-height: .24rem;
+				width: 2.9rem;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			    word-break: keep-all;
+			    white-space: nowrap;
+			}
+			h3{
+				position: absolute;
+				width: .24rem;
+				top: .3rem;
+				font-size: .24rem;
+				line-height: .26rem;
+				color: #fff;
+				right: .21rem;
+			}
+		}
+		.class_a{
+			background: url(../../../static/images/coupon_shop1.png) no-repeat;
+			background-size: 3.87rem 1.63rem;
+		}
+		.box2-wrap {
+		  	height: 300px;
+		  	overflow: hidden;
+		}
+	}
+	.activity{
+		width: 100%;
+		height: 4rem;
+	}
+	.abstract{
+		width: 100%;
+		height: 3rem;
+	}	
+}	

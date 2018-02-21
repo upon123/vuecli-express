@@ -1,0 +1,229 @@
+.clear{
+	clear:both;
+}
+.bodyStyle{
+	position: fixed;
+	top:0;
+	left: 0;
+}
+.assessmentBox{
+	background:#ffffff;
+    padding-bottom: .3rem;
+	.ContractorSidebar-Box{
+			width: 100%;
+			height:100%;
+			position: fixed;
+			z-index:5;
+			overflow: hidden;
+			.ContractorSidebar_Overlay{
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				top:0;
+				left: 0;
+				z-indedx:10;
+				background: rgba(0,0,0,.3);
+				.ContractorSidebar-Rightbox{
+					width: 81%;
+					background: #ffffff;
+					display: inline-block;
+					height: 100%;
+					overflow-y: scroll;
+					position: absolute;
+					left: 1.4rem;
+					animation: myrightbox .3s;	
+					-moz-animation: myrightbox .3s;	
+					-webkit-animation: myrightbox .3s;	
+					-o-animation: myrightbox .3s;	
+					@keyframes myrightbox 
+					{
+					from {left: 100%;}
+					to {left: 1.4rem;}
+					}
+
+					@-moz-keyframes myrightbox 
+					{
+					from {left: 100%;}
+					to {left: 1.4rem;}
+					}
+
+					@-webkit-keyframes myrightbox
+					{
+					from {left: 100%;}
+					to {left: 1.4rem;}
+					}
+
+					@-o-keyframes myrightbox 
+					{
+					from {left: 100%;}
+					to {left: 1.4rem;}
+					}
+					.ContractorSidebar-header{
+						width: 100%;
+						font-size: .3rem;
+						color: #333333;
+						text-align: center;
+						background: #ffffff;
+						z-index:5;
+						border-bottom:1px solid #dddddd;
+					    height: 1rem;
+					    line-height: 1rem;
+					    padding: .03rem .05rem;
+					}
+					.ContractorSidebar-Right{
+						width: 100%;
+						position: absolute;
+						>li{
+							text-indent: .3rem;
+							>p{
+								height:.66rem;
+								line-height: .66rem;
+								font-size: .28rem;
+								color:#333333;
+								border-bottom:1px solid #EEEEEE;	
+							}
+							.box_lip{
+								overflow: hidden;
+								text-overflow: ellipsis;
+							    word-break: keep-all;
+							    white-space: nowrap;
+							}
+							.Title{
+								background:#F5F5F5;
+								height:.5rem;
+								line-height: .5rem;
+								font-size: .26rem;
+								color:#999999;
+							}
+						}
+					}
+					.ContractorSidebar-Leftbox{
+						width: .4rem;
+						display: inline-block;
+						position: fixed;
+						right: .1rem;
+						top:2.08rem;
+						z-index:10;
+						.ContractorSidebar-Left{
+							text-align: center;
+							>li{
+								line-height: .35rem;
+								>a{
+									font-size:.22rem;
+									color:#666666;
+								}
+							}
+						}
+					}
+				}
+			}							
+		}
+	.Box{
+		width: 100%;
+		.assesshistory{
+			position:absolute;
+			right: .56rem;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		    word-break: keep-all;
+		    white-space: nowrap;
+		    width: 80%;
+    		text-align: right;
+		}
+		>li{
+			width: 94%;
+			margin: 0 auto;
+			font-size:.28rem;
+			color:#333333;
+			height:1rem;
+			line-height:1rem;
+			padding:.03rem .05rem;
+			border-bottom:#DDDDDD 1px solid;
+			background: url(../../../static/images/arrows.png) no-repeat right center;
+			background-size:.16rem .27rem;
+		}
+		.box-li{
+				font-size: .12rem;
+				line-height: .40rem;
+		}
+	}
+	.km{
+		font-size: .28rem;
+		width: 94%;
+		margin:0 auto;
+		height:1rem;
+		border-bottom:#DDDDDD 1px solid;
+		line-height:1rem;
+		position:relative;
+		.mileage{
+			position: absolute;
+			left:1%;
+		}
+		.kilometers{	
+			position: absolute;
+			right:1%;
+			text-align: right;
+			color:#999999;
+			padding-left: 2rem;
+			.kilometer{
+				border:none;
+				width: 16%;
+			}
+		}
+	}
+	.estimate{
+		width:94%;
+		margin:0 auto;
+		.vux-divider{
+			font-size: .24rem;
+			text-align: left;
+			line-height:.35rem; 
+			height:1.08rem;
+			color:#999999;
+			margin:0 auto;
+			white-space: normal;
+			>span{
+				padding:0 .2rem;
+			}
+			.estimate-left,.estimate-right{
+				width: .68rem;
+				display: inline;
+			}
+			&:after,&:before{
+				display: none;
+			}
+		}
+	}
+	.promptlyment{
+		width: 100%;
+		>button{
+			width:94%;
+			height:.9rem;
+			line-height:.9rem;
+			text-align: center;
+			background:#000000;
+			border:none;
+			outline-style: none;
+			color:#ffffff;
+			font-size:.32rem;
+			display: table;
+			margin:0 auto .2rem;
+		}
+	}
+	.activity{
+		width: 100%;
+		height: 1rem;
+		line-height: 1rem;		
+		border-top: .2rem solid #eee;
+		box-sizing: content-box;
+		h2{
+			width: 94%;
+			margin: 0 auto;
+			font-size:.32rem;
+			font-weight:bold;
+			color:#333333;
+			border-bottom:1px solid #dddddd;
+		}
+		
+	}
+}

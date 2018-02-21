@@ -1,0 +1,400 @@
+.sizer {
+	width: 100%;
+	height:.88rem;
+	background: #333;
+	position: relative;
+	z-index:100;
+	.sizerBox{
+		width: 94%;
+		height:.88rem;
+		margin: 0 auto;
+		color:#808080;
+		position: relative;
+		text-align: center;
+		z-index:100;
+		.sizerbox_li{
+			width: 1.67rem;
+			height:.71rem;
+			line-height: .71rem;
+			margin-top:.18rem;
+			color:#ffffff;
+			display: inline-block;
+			font-size: .28rem;
+			text-align: center;
+			img{
+				vertical-align: middle;
+			    top: .15rem;
+			    width: .16rem;
+			}
+			.sizeSrcStyle{
+				transform:rotate(180deg);
+				-ms-transform:rotate(180deg); 		
+				-moz-transform:rotate(180deg); 		
+				-webkit-transform:rotate(180deg);	
+				-o-transform:rotate(180deg); 		
+			}
+		}
+		.sizerBox_li{
+			background:#343434;
+			text-align: center;
+		}
+	}
+	.li_focus{	
+		background:#343434;
+		opacity: 100%;
+	}
+}
+.priceBox{
+	position:relative;
+	z-index: 20;
+	width: 100%;
+		.sortBox{
+			color:#000000;
+		}
+		.mask_layer{
+			position: fixed;
+			top:0;
+			width: 100%;
+			min-height:100%;
+			background: #292929;
+			opacity: .5;
+		}
+		.price{
+			width: 100%;
+			position:absolute;
+			top:0;
+			left: 0;
+			z-index: 10;
+			overflow: hidden;
+			border-top:1px solid rgb(179,179,179);
+			.sortScree{
+				width: 100%;
+				height:6rem;
+				background: #ffffff;
+				font-size:.28rem;
+				color:#666666;
+				>li{
+					text-align: left;
+					text-indent: .2rem;
+					width:92%;
+					height:.85rem;
+					line-height: .85rem;
+					margin:0 auto;
+					border-bottom:1px solid #EEEEEE;
+				}
+				.sortScree_B{
+					background:url("../../../static/images/UncheckedUpArrow.png") no-repeat right center;
+					background-size: .2rem .2rem;
+					background-position: 15%;
+				}
+				.sortScree_C{
+					background:url("../../../static/images/UncheckedDownArrow.png") no-repeat right center;
+					background-size: .2rem .2rem;
+					background-position: 15%;
+				}
+				.sortScree_D{
+					background:url("../../../static/images/UncheckedUpArrow.png") no-repeat right center;
+					background-size: .2rem .2rem;
+					background-position: 15%;
+				}
+				.sortScree_E{
+					background:url("../../../static/images/UncheckedDownArrow.png") no-repeat right center;
+					background-size: .2rem .2rem;
+					background-position: 15%;
+				}
+				.sortScree_F{
+					background:url("../../../static/images/UncheckedUpArrow.png") no-repeat right center;
+					background-size: .2rem .2rem;
+					background-position: 15%;
+				}
+				.sortScree_G{
+					background:url("../../../static/images/UncheckedDownArrow.png") no-repeat right center;
+					background-size: .2rem .2rem;
+					background-position: 15%;
+				}
+				.sortScreeNew{
+					color:#bb0a30;
+				}
+				.sortScreeUp{
+					color:#bb0a30;
+					background:url("../../../static/images/CheckedUpArrow.png") no-repeat right center;
+					background-size: .2rem .2rem;
+					background-position: 15%;
+				}
+				.sortScreeDown{
+					color:#bb0a30;
+					background:url("../../../static/images/CheckedDownArrow.png") no-repeat right center;
+					background-size: .2rem .2rem;
+					background-position: 15%;
+				}
+			}
+			.carPrice{
+				width: 100%;
+				height:6rem;
+				overflow-y: scroll;
+				background: #ffffff;
+				font-size:.28rem;
+				color:#666666;
+				.carPrice_li{
+					text-align: left;
+					text-indent: .2rem;
+					width:92%;
+					height:.85rem;
+					line-height: .85rem;
+					margin:0 auto;
+					border-bottom:1px solid #EEEEEE;
+				}
+				.carPrice_licolor{
+					color:#bb0a30;
+				}
+			}
+			.rangeBox{
+				width: 100%;
+				height:2.81rem;
+				.range_Ul{
+					position: absolute;
+					left:.7rem;
+					bottom:.44rem;
+					width: 100%;
+					height: .26rem;
+					>li{
+						color:#666666;
+						float: left;
+						font-size: .26rem;
+						position: absolute;
+						bottom:0;
+					}
+					.rangeul_Li_A{
+						left:.15rem;
+					}
+					.rangeul_Li_B{
+						left:1.2rem;
+					}
+					.rangeul_Li_C{
+						left:2.33rem;
+					}
+					.rangeul_Li_D{
+						left:3.44rem;
+					}
+					.rangeul_Li_E{
+						left:4.58rem;
+					}
+					.rangeul_Li_F{
+						left:5.8rem;
+					}
+				}
+				.range_rl{
+					margin:0 auto;
+				}
+				.customtext{
+					display: inline-block;
+					margin:.36rem 0 0 .47rem;
+					font-size:.28rem;
+					color:#666666;
+					>span{
+						font-size: .22rem;
+						padding-left:.16rem;
+						color:#666666;
+					}
+				}
+					.weui-cells{
+						margin-top:0;
+						height: 2.81rem;
+						.setPrice{
+							width: .81rem;
+							height:.47rem;
+							color:#fffdfd;
+							font-size:.26rem;
+							background: #333333;
+							border:none;
+							outline: none;
+							display: inline-block;
+							position: absolute;
+							top:.26rem;
+							right:.24rem;
+						}
+						.rangeleft,.rangeright{
+							position: absolute;
+							right:.3rem;
+							margin-top:8%;
+							.weui-cell{
+								padding:0 0;
+								width: 103%;
+								margin:0 0 0 -.1rem;
+								height:.5rem;
+								&:before{
+									display: none;
+								}
+							}
+							.range-min,.range-max{
+								display: none;
+							}
+						}
+						.rangeleft{
+							z-index:5;
+							width: 100%;
+							.range-bar{
+								background: rgba(255, 255, 255, 0);
+								width: 108% !important;
+								.range-quantity{
+									background:#C9C9C9;
+									position: relative;
+								}
+								.range-handle{
+									border-radius: .1rem;
+									background: url(../../../static/images/range.png) no-repeat center;
+									background-size: 1rem 1rem;
+									width: .5rem;
+									height: .5rem;
+									box-shadow: 0px 0px 10px rgba(0,0,0,0.14);
+									top:-10.6px !important;
+								}
+							}
+							.price_frame_left{
+								font-size:.26rem;
+								color:#333333;
+								text-align: center;
+								width: 1.42rem;
+								height:.48rem;
+								background:url(../../../static/images/price-frame.png) no-repeat center;
+								background-size:100% 100%;
+								position: absolute;
+								top:-.56rem;
+								left:50%;
+							}
+						}
+						.rangeright{
+							width: 100%;
+							.range-bar{
+								background: #C9C9C9;
+								width: 108% !important;
+								.range-quantity{
+									background: #333333;
+									position: relative;
+								}
+								.range-handle{
+									border-radius: .1rem;
+									z-index:5;
+									background: url(../../../static/images/range.png) no-repeat center;
+									background-size: 1rem 1rem;
+									width: .5rem;
+									height: .5rem;
+									box-shadow: 0px 0px 10px rgba(0,0,0,0.14);
+									top:-10.6px !important;
+								}
+							}
+							.price_frame{
+								font-size:.26rem;
+								color:#333333;
+								text-align: center;
+								width: 1.5rem;
+								height:.48rem;
+								line-height: .45rem;
+								background:url(../../../static/images/price-frame.png) no-repeat center;
+								background-size:100% 100%;
+								position: absolute;
+								top:-.54rem;
+								left:43%;
+							}
+						}
+					}
+				}	
+		}
+}
+.searchHistory {
+	display: block;
+	width: 100%;
+	background: #eeeeee;
+	color:#666666;	
+	position: fixed;
+	z-index: 10;
+	>span{
+		height:.64rem;
+		line-height: .64rem;
+		background: #fff;
+		display: inline-block;
+		font-size: .26rem;
+		padding:0 .21rem;
+		margin: .14rem 0 .14rem .22rem;
+		position: relative;
+		.removeStorage{
+			display: inline-block;
+			width: .17rem;
+			height:.17rem;
+			margin-left:.19rem;
+			background: url("../../../static/images/small-differ.png") no-repeat center;
+			background-size: 100%;			
+		}
+	}
+	p{
+		width: 100%;
+		text-align: center;
+		color: #666;
+		font-size: .26rem;
+		line-height: .28rem;
+		height: .26rem;
+		margin: .38rem auto;
+		position: relative;
+		img{
+			width: .24rem;
+			display: inline-block;
+			vertical-align: middle;
+			position: absolute;
+		}
+		span{
+			padding-left: .34rem;
+		}
+	}
+}
+
+
+.searchHistoryZhanwei{
+	display: block;
+	width: 100%;
+	background: #eeeeee;
+	color:#666666;	
+	opacity: 0;
+	>span{
+		height:.64rem;
+		line-height: .64rem;
+		background: #fff;
+		display: inline-block;
+		font-size: .26rem;
+		padding:0 .21rem;
+		margin: .14rem 0 .14rem .22rem;
+		position: relative;
+		.removeStorage{
+			display: inline-block;
+			width: .17rem;
+			height:.17rem;
+			margin-left:.19rem;
+			background: url("../../../static/images/small-differ.png") no-repeat center;
+			background-size: 100%;			
+		}
+	}
+	p{
+		width: 100%;
+		text-align: center;
+		color: #666;
+		font-size: .26rem;
+		line-height: .28rem;
+		height: .26rem;
+		margin: .38rem auto;
+		position: relative;
+		img{
+			width: .24rem;
+			display: inline-block;
+			vertical-align: middle;
+			position: absolute;
+		}
+		span{
+			padding-left: .34rem;
+		}
+	}
+}
+.searchHistory_none{
+	display: none;
+}
+.sizerBox .sizerbox_li:nth-child(2) span{
+	margin-left: .25rem;
+}

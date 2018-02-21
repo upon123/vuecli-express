@@ -1,0 +1,58 @@
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+.swiper-demo-img img {
+  width: 100%;
+}
+
+.border{
+	width: 92%;
+	border-top: 1px solid #cfcfcf;
+	margin:0 auto;
+}
+.bigCarMeassage{
+	width: 100%;
+	.tu{
+		height: 100%;
+		background: #eeeeee;
+		margin:0 auto;		
+		.swiper-container{
+			.swiper-lazy{
+				width: 100%;
+				height: 5.62rem;
+				background-size: 100% 100%;
+			}
+			.swiper-lazy-preloader{
+			    width: 100%;
+			    height: 100%;
+			    position: absolute;
+			    left: 0; 
+			    top: 0; 
+			    margin-left: 0; 
+			    margin-top: 0; 
+			    z-index: 10;
+			    -webkit-transform-origin: none; 
+			    transform-origin: none; 
+			    -webkit-animation:none; 
+			    animation: none; 
+				&:after{
+					background: url(../../../static/images/smallCar_loading.png) no-repeat;
+				 	background-size: 100% 100%;
+				    width: 100%;
+				    height: 100%;
+				    display: block;
+				    content: "";
+				}		
+			}
+			.swiper-pagination-bullet{
+				background: #fff;
+			}			
+			.swiper-pagination-bullet-active {
+			    background: #bc0931;
+			}
+		}
+	}	
+}
+.xs-plugin-pullup-container{
+		line-height: 1.2rem;
+}

@@ -1,0 +1,129 @@
+* {
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input{
+    -webkit-user-select:auto;
+}
+html,body{
+	font-weight: normal;
+    min-height: 100%;
+    font-size: .2rem;
+    font-family: 'PingFang SC','droid sans fallback';
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    position: relative;
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+    -webkit-appearance: none;
+    -webkit-touch-callout: none;
+    background-clip: padding-box;
+    -webkit-overflow-scrolling:touch;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, code,
+form, fieldset, legend, input, button,
+textarea, p, blockquote,span,samp {
+    margin: 0;
+    padding: 0;
+	word-break:break-all;
+    box-sizing:border-box;
+}
+fieldset, img {
+    border: 0;
+}
+img{vertical-align: top;
+    -webkit-touch-callout: none;
+}
+a {
+    cursor: pointer;
+	text-decoration:none;
+	display:block;
+    -webkit-touch-callout: none;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+input, button, textarea,
+optgroup{
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+ol, ul, li {
+    list-style: none;
+    list-style-image: none;
+    list-style-type: none;
+}
+i{
+    font-style: normal;
+    padding:0px;
+    margin:0px;
+}
+input,textarea,select{
+    -webkit-user-select: auto !important;
+	outline:none;
+    border:0;
+}
+
+#progress {
+    width: 100%;
+    height: 1.1rem;
+    overflow: hidden;
+    position: relative;
+    img{
+        position: absolute;
+        display: block;
+        width: 2.4rem;
+        left: 50%;
+        margin-left: -1.2rem;
+    }
+    .carloading{
+        margin-top: -.45rem;
+    }
+    p{
+        width: 100%;
+        text-align: center;
+        font-size: .26rem;
+        margin-top: .62rem;
+        line-height: .26rem;
+    }
+}
+#list-end {
+    text-align: center;
+    font-size: .22rem;
+    color: #999;
+    line-height: .5rem;
+}
+
+@font-face {font-family: "iconfont";
+  src: url('../cssfont/iconfont.eot?t=1515256376828'); /* IE9*/
+  src: url('../cssfont/iconfont.eot?t=1515256376828#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../cssfont/iconfont.woff') format('woff'),
+  url('../cssfont/iconfont.ttf?t=1515256376828') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../cssfont/iconfont.svg?t=1515256376828#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-1201youjiantou:before { content: "\e632"; }
+.icon-font52:before { content: "\e6d0"; }
+.icon-weizhi:before { content: "\e67e"; }
